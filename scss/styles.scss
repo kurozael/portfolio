@@ -22,19 +22,19 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #6BAE8A;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
+$background: #202020;
+$background-alt: #3B3B3B;
 
 // Define border colors
-$border: #dcd9d9;
+$border: #1F2720;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #73d695;
+$text: #A4ADA5;
 
 /*
     ---------------------
@@ -73,6 +73,7 @@ $text: #74808a;
 */
 
 body {
+	background: #202020;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
 
@@ -80,6 +81,15 @@ body {
         overflow: hidden;
         z-index: -1;
     }
+}
+
+a {
+	color: #C27385;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #DF96A8;
 }
 
 // No JS styles
@@ -160,9 +170,9 @@ header {
         padding: 10px;
 
         &:hover {
-            color: $base-color-hover;
+            color: #92D0AF;
             text-decoration: none;
-            background: #eee;
+            background: #454545;
             border-radius: 4px;
         }
 
@@ -495,8 +505,8 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
+    background: #202020;
+    border: 2px dashed #73d695;
     padding: 15px;
     border-radius: 3px;
     text-align: left;
@@ -555,7 +565,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054;
+    color: #73d695;
 }
 
 /*
@@ -576,10 +586,11 @@ footer {
 }
 
 .education-block {
+	background: #2D2D2D;
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid $border;
+    border: 2px dashed #73d695;
     text-align: left;
 
     h3 {
@@ -634,7 +645,7 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background: #202020;
     border-radius: 4px;
 }
 
@@ -846,6 +857,7 @@ footer {
         margin-bottom: 15px;
         display: block;
         margin-left: 70px;
+		color: #73d695;
     }
 
     .vtimeline-icon {
